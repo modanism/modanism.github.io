@@ -38,7 +38,7 @@ document.getElementById('form')
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
-    loop: false,
+    loop: true,
   
     // If we need pagination
     pagination: {
