@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4f3c74dd42.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>M.Ramadhany's Portofolio</title>
+  </head>
+  <body>
+    <div class="nav-container">
+      <nav>
+        <ul>
+          <li>
+            <a href="#home"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa-solid fa-user"></i></a>
+          </li>
+          <li>
+            <a href="#skill"><i class="fa-solid fa-brain"></i></a>
+          </li>
+          <li>
+            <a href="#project"><i class="fa-solid fa-book"></i></a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa-solid fa-handshake-simple"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/mochammad-ramadhany-0aa985201/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/modanism"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://danny-moch.medium.com/"
+          ><i class="fa-brands fa-medium"></i
+        ></a>
+      </div>
+      <a href="#footer">Scroll Down</a>
+    </header>
+    <main>
+      <div id="home" class="home">
+        <p>Hello! I'm</p>
+        <h2>M. Ramadhany</h2>
+        <p>Frontend Developer</p>
+        <div class="buttons">
+          <button class="cv">
+            <a href="doc/CV-Mochammad Ramadhany.pdf">Download CV</a>
+          </button>
+          <button class="contact"><a href="#contact">Contact Me</a></button>
+        </div>
+        <img src="img/pasfoto.png" alt="avatar" />
+      </div>
+      <div class="container">
+        <h5 id="about">Get To Know</h5>
+        <h3>About Me</h3>
+        <div class="about">
+          <content>
+            <img src="img/me-about.jpg" />
+          </content>
+          <aside>
+            <h1>Hello!</h1>
+            <h4>My name is <span>Mochammad Ramadhany</span></h4>
+            <p>
+              I am a second year undergraduate student at Institut Teknologi
+              Bandung, majoring in Information System and Technology. I have a
+              huge interest in Web Development especially in the frontend aspect
+              of it. I am very eager to learn new things that peek my interest,
+              willing to work as a team, and able to work well under-pressure.
+            </p>
+            <button>
+              <a href="#contact">Let's Talk</a>
+            </button>
+          </aside>
+        </div>
+        <p id="skill">What I Know</p>
+        <h3>My Skills</h3>
+        <div class="skill">
+          <div class="card">
+            <i class="fa-brands fa-react"></i>
+            <h4>React JS</h4>
+            <p>Basic</p>
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-html5"></i>
+            <h4>HTML</h4>
+            <p>Experienced</p>
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h4>CSS</h4>
+            <p>Experienced</p>
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-js-square"></i>
+            <h4>Javascript</h4>
+            <p>Experienced</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-database"></i>
+            <h4>MySQL</h4>
+            <p>Intermediate</p>
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-python"></i>
+            <h4>Python</h4>
+            <p>Intermediate</p>
+          </div>
+        </div>
+        <p id="project">My Recent Work</p>
+        <h3>Projects</h3>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="project-card">
+                <img src="img/ruangku.JPG" />
+                <h3>Ruangku</h3>
+                <p>Web-based Interactive Shapes Calculator</p>
+                <div class="buttons">
+                  <button>
+                    <a href="https://github.com/modanism/ruangku">GitHub</a>
+                  </button>
+                  <button>
+                    <a href="https://ruangku.netlify.app/">Live Demo</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-card">
+                <img src="img/netmon.JPG" />
+                <h3>Network Monitoring System</h3>
+                <p>Web-based monitoring system for ITB Energy Management Lab</p>
+                <div class="buttons">
+                  <button>
+                    <a href="https://github.com/modanism/network-monitoring"
+                      >GitHub</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <button id="btn1"></button>
+          <button id="btn2"></button>
+        </div>
+        <p id="contact">Get In Touch</p>
+        <h3>Contact Me</h3>
+        <div class="contact-container">
+          <div class="card-container">
+            <div class="contact-card">
+              <i class="fa-solid fa-envelope"></i>
+              <h4>Email</h4>
+              <p>ramadhanymochammad@gmail.com</p>
+              <a href="mailto:ramadhanymochammad@gmail.com">Send a Message</a>
+            </div>
+            <div class="contact-card">
+              <i class="fa-brands fa-whatsapp"></i>
+              <h4>Whatsapp</h4>
+              <p>+6285920602360</p>
+              <a href="https://wa.me/6285920602360">Send a Message</a>
+            </div>
+          </div>
+          <form id="form">
+            <input
+              type="text"
+              placeholder="Your Full Name"
+              name="from_name"
+              id="from_name"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              name="email_id"
+              id="email_id"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              rows="4"
+              placeholder="Your Message"
+            ></textarea>
+            <button id="submit" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <h1>Mochammad Ramadhany</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/moch_dhany/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+      <span>&copyMochammad Ramadhany. All rights reserved.</span>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      emailjs.init("z2Q_JibLB0gqc1Gxn");
+    </script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js";
+
+      const swiper = new Swiper();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
